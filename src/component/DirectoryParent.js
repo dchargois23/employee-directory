@@ -26,6 +26,8 @@ class DirectoryParent extends React.Component {
         });
     };
 
+
+
     // When the form is submitted, search the OMDB API for the value of `this.state.search`
     handleFormSubmit = event => {
         event.preventDefault();
